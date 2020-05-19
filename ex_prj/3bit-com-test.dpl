@@ -1,0 +1,53 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,20,998,1030,1,0,420>
+  <Grid=10,10,0>
+  <DataSet=3bit-com-test.dat>
+  <DataDisplay=3bit-com-test.sch>
+  <OpenDisplay=1>
+  <Script=3bit-com-test.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 90 113 812 73 3 #c0c0c0 1 00 0 0 0.05 1 1 -17.9992 50 17.9998 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr1.V" #0000ff 0 3 0 0 0>
+	  <Mkr 0.125 157 -66 3 0 0>
+  </Rect>
+  <Rect 90 243 812 73 3 #c0c0c0 1 00 0 0 0.05 1 1 -17.9996 50 17.9998 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr2.V" #0000ff 0 3 0 0 0>
+	  <Mkr 0.25 263 -127 3 0 0>
+  </Rect>
+  <Rect 90 363 812 73 3 #c0c0c0 1 00 0 0 0.05 1 1 -17.9997 50 17.9998 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr3.V" #ff0000 0 3 0 0 0>
+	  <Mkr 0.375 360 -66 3 0 0>
+  </Rect>
+  <Rect 90 493 812 73 3 #c0c0c0 1 00 0 0 0.05 1 1 -17.9998 50 17.9998 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr4.V" #ff00ff 0 3 0 0 0>
+	  <Mkr 0.5 462 -66 3 0 0>
+  </Rect>
+  <Rect 90 623 812 73 3 #c0c0c0 1 00 0 0 0.05 1 1 -17.9998 50 17.9997 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr5.V" #ff0000 0 3 0 0 0>
+	  <Mkr 0.63 568 -127 3 0 0>
+  </Rect>
+  <Rect 90 753 812 73 3 #c0c0c0 1 00 0 0 0.05 1 1 -17.9998 50 17.9996 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr6.V" #ff0000 0 3 0 0 0>
+	  <Mkr 0.75 665 -66 3 0 0>
+  </Rect>
+  <Rect 110 883 812 73 3 #c0c0c0 1 00 0 0 0.05 1 1 -17.9998 50 17.9992 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr7.V" #ff0000 0 3 0 0 0>
+	  <Mkr 0.875 771 -127 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

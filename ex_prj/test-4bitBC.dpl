@@ -1,0 +1,43 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,-260,969,614,1,0,300>
+  <Grid=10,10,0>
+  <DataSet=test-4bitBC.dat>
+  <DataDisplay=test-4bitBC.sch>
+  <OpenDisplay=1>
+  <Script=test-4bitBC.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 49 130 910 90 3 #c0c0c0 1 00 0 0 4e-06 5e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr1.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 49 270 910 90 3 #c0c0c0 1 00 0 0 4e-06 5e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr2.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 49 400 910 90 3 #c0c0c0 1 00 0 0 4e-06 5e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr3.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 49 530 910 90 3 #c0c0c0 1 00 0 0 4e-06 5e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr4.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 49 -10 910 90 3 #c0c0c0 1 00 0 0 4e-06 5e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "" "">
+	<"S2.It" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 49 -150 910 90 3 #c0c0c0 1 00 0 0 4e-06 5e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "" "">
+	<"S1.It" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,35 @@
+Output:
+-------
+
+Starting new simulation on 水 20. 5月 2020 at 00:19:28:712
+
+creating netlist... done.
+project location: 
+modules to load: 0
+factorycreate.size() is 0
+factorycreate has registered:
+parsing netlist...
+checking netlist...
+netlist content
+      5 Inv instances
+      1 DC instances
+      2 OR instances
+      3 VProbe instances
+      8 R instances
+      1 logic_1 instances
+      4 AND instances
+      7 OpAmp instances
+      1 SW instances
+      1 Vdc instances
+creating netlist...
+
+Simulation ended on 水 20. 5月 2020 at 00:19:28:952
+Ready.
+
+
+
+
+Errors:
+-------
+
+
