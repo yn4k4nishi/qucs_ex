@@ -1,43 +1,30 @@
-# Qucs 0.0.18  /home/ynakanishi/.qucs/ex_prj/flash-ADC-test.sch
+# Qucs 0.0.18  /home/ynakanishi/.qucs/ex_prj/R2R-DA.sch
 
-.Def:n3bit_comparator _net0 _net1 _net15 _net13 _net11 _net9 _net7 _net5 _net3
-OpAmp:OP1 _net2 _net1 _net3 G="1e6" Umax="15 V"
-OpAmp:OP2 _net4 _net1 _net5 G="1e6" Umax="15 V"
-OpAmp:OP3 _net6 _net1 _net7 G="1e6" Umax="15 V"
-OpAmp:OP4 _net8 _net1 _net9 G="1e6" Umax="15 V"
-OpAmp:OP5 _net10 _net1 _net11 G="1e6" Umax="15 V"
-OpAmp:OP6 _net12 _net1 _net13 G="1e6" Umax="15 V"
-OpAmp:OP7 _net14 _net1 _net15 G="1e6" Umax="15 V"
-R:R1 _net2 _net0 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R2 _net4 _net2 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R3 _net6 _net4 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R4 _net8 _net6 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R5 _net10 _net8 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R6 _net10 _net12 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R7 _net14 _net12 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R8 gnd _net14 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+.Def:switch_sub _net2 _net3 _net0 _net1
+Relais:S1 _net2 _net3 _net0 gnd Vt="0.5 V" Vh="0.1 V" Ron="1e12" Roff="0" Temp="26.85"
+Relais:S2 _net2 _net3 _net1 gnd Vt="0.5 V" Vh="0.1 V" Ron="0" Roff="1e12" Temp="26.85"
 .Def:End
 
-.Def:n3bit_encoder _net0 _net1 _net2 _net3 _net4 _net5 _net6 _net16 _net7 _net8
-Inv:Y1 _net8 _net9 V="1 V" t="0" TR="10"
-Inv:Y2 _net9 _net3 V="1 V" t="0" TR="10"
-Inv:Y3 _net10 _net3 V="1 V" t="0" TR="10"
-AND:Y4 _net11 _net10 _net1 V="1 V" t="0" TR="10"
-OR:Y5 _net7 _net5 _net11 V="1 V" t="0" TR="10"
-Inv:Y6 _net12 _net1 V="1 V" t="0" TR="10"
-Inv:Y7 _net13 _net5 V="1 V" t="0" TR="10"
-AND:Y9 _net14 _net11 _net2 V="1 V" t="0" TR="10"
-AND:Y10 _net15 _net13 _net4 V="1 V" t="0" TR="10"
-OR:Y11 _net16 _net6 _net15 _net14 _net17 V="1 V" t="0" TR="10"
-AND:Y8 _net17 _net12 _net0 V="1 V" t="0" TR="10"
+.Def:R_2R_Ladder _net1 _net0 _net3 _net6 _net9
+R:R3 _net0 _net2 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R2 _net2 _net1 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R4 _net3 _net4 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R5 _net4 _net5 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R6 _net6 _net7 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R7 _net7 _net8 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R8 _net9 _net10 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R9 _net10 _net11 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R10 _net1 _net5 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R11 _net5 _net8 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R12 _net8 _net11 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R13 gnd _net12 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R14 _net12 _net11 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
 .Def:End
 
-Sub:SUB1 _net0 _net1 _net2 _net3 _net4 _net5 _net6 _net7 _net8 Type="n3bit_comparator"
-Sub:SUB2 _net2 _net3 _net4 _net5 _net6 _net7 _net8 _net9 _net10 _net11 Type="n3bit_encoder"
-logic_1:S1 _net0 LEVEL="1"
-Vdc:V1 _net1 gnd U="VD"
-.DC:DC1 Temp="26.85" reltol="0.001" abstol="1 pA" vntol="1 uV" saveOPs="no" MaxIter="150" saveAll="no" convHelper="none" Solver="CroutLU"
-.SW:SW1 Sim="DC1" Type="lin" Param="VD" Start="0V" Stop="1V" Points="201"
-VProbe:Pr1 _net9 gnd
-VProbe:Pr2 _net10 gnd
-VProbe:Pr3 _net11 gnd
+Sub:Switch4 _net0 _net1 gnd _net2 Type="switch_sub"
+Sub:Switch3 _net3 _net4 gnd _net2 Type="switch_sub"
+Sub:Switch2 _net5 _net6 gnd _net2 Type="switch_sub"
+Sub:Switch1 _net7 _net8 gnd _net2 Type="switch_sub"
+Sub:SUB2 _net9 _net8 _net6 _net4 _net1 Type="R_2R_Ladder"
+OpAmp:OP1 _net2 gnd _net10 G="1e6" Umax="15 V"
+R:R1 _net2 _net10 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"

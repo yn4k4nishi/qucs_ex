@@ -1,0 +1,37 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,0,843,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=SAR-bench.dat>
+  <DataDisplay=SAR-bench.sch>
+  <OpenDisplay=1>
+  <Script=SAR-bench.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 130 85 679 75 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Pr1.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 130 225 679 75 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr2.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 130 355 679 75 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr3.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 130 485 679 75 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "" "">
+	<"Pr4.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
