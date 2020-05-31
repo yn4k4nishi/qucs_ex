@@ -1,7 +1,7 @@
 Output:
 -------
 
-Starting new simulation on 日 31. 5月 2020 at 14:10:22:738
+Starting new simulation on 日 31. 5月 2020 at 14:34:08:488
 
 creating netlist... done.
 project location: 
@@ -15,18 +15,18 @@ netlist content
       2 DigiSource instances
      66 NAND instances
       2 OR instances
-     12 VProbe instances
-     45 R instances
-     22 Relais instances
-      5 logic_1 instances
+     11 VProbe instances
+     31 R instances
+     14 Relais instances
+      4 logic_1 instances
       4 AND instances
-     11 OpAmp instances
+      9 OpAmp instances
       1 TR instances
 creating netlist...
-NOTIFY: TR1: average time-step 2.01149e-08, 152 rejections
-NOTIFY: TR1: average NR-iterations 3.1092, 0 non-convergences
+NOTIFY: TR1: average time-step 8.36653e-09, 245 rejections
+NOTIFY: TR1: average NR-iterations 2.73147, 0 non-convergences
 
-Simulation ended on 日 31. 5月 2020 at 14:10:46:182
+Simulation ended on 日 31. 5月 2020 at 14:34:43:807
 Ready.
 
 

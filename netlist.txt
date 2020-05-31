@@ -37,6 +37,32 @@ Sub:SUB1 _net0 _net1 _net2 _net3 _net4 _net5 _net6 _net7 _net8 Type="n3bit_compa
 Sub:SUB2 _net2 _net3 _net4 _net5 _net6 _net7 _net8 _net9 _net10 _net11 Type="n3bit_encoder"
 .Def:End
 
+.Def:dff_sub _net3 _net8 _net0 _net1 _net4 _net9
+NAND:Y2 _net2 _net3 _net4 _net5 V="1 V" t="0" TR="10"
+NAND:Y3 _net6 _net3 _net7 _net2 V="1 V" t="0" TR="10"
+NAND:Y4 _net7 _net8 _net6 _net4 V="1 V" t="0" TR="10"
+NAND:Y6 _net1 _net4 _net6 _net0 V="1 V" t="0" TR="10"
+NAND:Y5 _net0 _net1 _net2 _net9 V="1 V" t="0" TR="10"
+NAND:Y1 _net5 _net7 _net2 _net9 V="1 V" t="0" TR="10"
+.Def:End
+
+.Def:SAR _net0 _net1 _net26 _net25 _net17 _net15 _net11 _net13
+Sub:D_FF1 _net1 gnd _net2 _net3 _net4 _net0 Type="dff_sub"
+Sub:D_FF2 _net1 _net2 _net5 _net6 _net0 _net4 Type="dff_sub"
+Sub:D_FF3 _net1 _net5 _net7 _net8 _net0 _net4 Type="dff_sub"
+Sub:D_FF4 _net1 _net7 _net9 _net10 _net0 _net4 Type="dff_sub"
+Sub:D_FF6 _net11 _net12 _net13 _net14 _net0 _net6 Type="dff_sub"
+Sub:D_FF7 _net15 _net12 _net11 _net16 _net0 _net8 Type="dff_sub"
+Sub:D_FF8 _net17 _net12 _net15 _net18 _net0 _net10 Type="dff_sub"
+Sub:D_FF9 _net19 _net12 _net17 _net20 _net0 _net21 Type="dff_sub"
+Sub:D_FF10 _net1 _net9 _net22 _net21 _net0 _net4 Type="dff_sub"
+Sub:D_FF11 gnd _net12 _net19 _net23 _net0 _net24 Type="dff_sub"
+Sub:D_FF5 _net1 _net22 _net25 _net24 _net0 _net4 Type="dff_sub"
+Inv:Y1 _net27 _net26 V="1 V" t="50ns" TR="10"
+Inv:Y2 _net12 _net27 V="1 V" t="50ns" TR="10"
+logic_1:S1 _net4 LEVEL="1"
+.Def:End
+
 .Def:switch_sub _net2 _net3 _net0 _net1
 Relais:S1 _net2 _net3 _net0 gnd Vt="0.5 V" Vh="0.1 V" Ron="1e12" Roff="0" Temp="26.85"
 Relais:S2 _net2 _net3 _net1 gnd Vt="0.5 V" Vh="0.1 V" Ron="0" Roff="1e12" Temp="26.85"
@@ -80,80 +106,24 @@ OpAmp:OP1 _net2 gnd _net16 G="1e6" Umax="15 V"
 R:R1 _net2 _net16 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
 .Def:End
 
-.Def:dff_sub _net3 _net8 _net0 _net1 _net4 _net9
-NAND:Y2 _net2 _net3 _net4 _net5 V="1 V" t="0" TR="10"
-NAND:Y3 _net6 _net3 _net7 _net2 V="1 V" t="0" TR="10"
-NAND:Y4 _net7 _net8 _net6 _net4 V="1 V" t="0" TR="10"
-NAND:Y6 _net1 _net4 _net6 _net0 V="1 V" t="0" TR="10"
-NAND:Y5 _net0 _net1 _net2 _net9 V="1 V" t="0" TR="10"
-NAND:Y1 _net5 _net7 _net2 _net9 V="1 V" t="0" TR="10"
-.Def:End
-
-.Def:SAR _net0 _net1 _net26 _net25 _net17 _net15 _net11 _net13
-Sub:D_FF1 _net1 gnd _net2 _net3 _net4 _net0 Type="dff_sub"
-Sub:D_FF2 _net1 _net2 _net5 _net6 _net0 _net4 Type="dff_sub"
-Sub:D_FF3 _net1 _net5 _net7 _net8 _net0 _net4 Type="dff_sub"
-Sub:D_FF4 _net1 _net7 _net9 _net10 _net0 _net4 Type="dff_sub"
-Sub:D_FF6 _net11 _net12 _net13 _net14 _net0 _net6 Type="dff_sub"
-Sub:D_FF7 _net15 _net12 _net11 _net16 _net0 _net8 Type="dff_sub"
-Sub:D_FF8 _net17 _net12 _net15 _net18 _net0 _net10 Type="dff_sub"
-Sub:D_FF9 _net19 _net12 _net17 _net20 _net0 _net21 Type="dff_sub"
-Sub:D_FF10 _net1 _net9 _net22 _net21 _net0 _net4 Type="dff_sub"
-Sub:D_FF11 gnd _net12 _net19 _net23 _net0 _net24 Type="dff_sub"
-Sub:D_FF5 _net1 _net22 _net25 _net24 _net0 _net4 Type="dff_sub"
-Inv:Y1 _net27 _net26 V="1 V" t="50ns" TR="10"
-Inv:Y2 _net12 _net27 V="1 V" t="50ns" TR="10"
-logic_1:S1 _net4 LEVEL="1"
-.Def:End
-
-.Def:R_2R_Ladder _net1 _net0 _net3 _net6 _net9
-R:R3 _net0 _net2 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R2 _net2 _net1 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R4 _net3 _net4 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R5 _net4 _net5 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R6 _net6 _net7 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R7 _net7 _net8 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R8 _net9 _net10 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R9 _net10 _net11 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R10 _net1 _net5 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R11 _net5 _net8 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R12 _net8 _net11 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R13 gnd _net12 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R14 _net12 _net11 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-.Def:End
-
-.Def:R2R_DA _net7 _net5 _net3 _net0 _net9 _net10
-Sub:Switch4 _net0 _net1 gnd _net2 Type="switch_sub"
-Sub:Switch3 _net3 _net4 gnd _net2 Type="switch_sub"
-Sub:Switch2 _net5 _net6 gnd _net2 Type="switch_sub"
-Sub:Switch1 _net7 _net8 gnd _net2 Type="switch_sub"
-Sub:SUB2 _net9 _net8 _net6 _net4 _net1 Type="R_2R_Ladder"
-OpAmp:OP1 _net2 gnd _net10 G="1e6" Umax="15 V"
-R:R1 _net2 _net10 R="50 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-.Def:End
-
 Sub:SUB4 _net0 _net1 _net2 _net3 _net4 Type="n3bit_flash_ADC"
 logic_1:S1 _net1 LEVEL="0.59"
-Sub:SUB3 gnd gnd gnd gnd _net5 _net6 _net2 _net3 _net4 Type="n7bit_R2R_DAC"
 logic_1:S5 _net0 LEVEL="1"
-OpAmp:OP2 _net6 _net1 _net7 G="1e6" Umax="15 V"
 VProbe:Pr9 _net2 gnd
 VProbe:Pr10 _net3 gnd
 VProbe:Pr11 _net4 gnd
-Sub:SUB1 _net8 _net9 _net10 _net11 _net12 _net13 _net14 _net15 Type="SAR"
-Sub:SUB2 _net15 _net14 _net13 _net12 _net16 _net17 Type="R2R_DA"
-OpAmp:OP1 _net17 _net7 _net10 G="1e6" Umax="15 V"
-logic_1:S2 _net16 LEVEL="-1"
+Sub:SUB1 _net5 _net6 _net7 _net8 _net9 _net10 _net11 _net12 Type="SAR"
+VProbe:Pr1 _net12 gnd
+VProbe:Pr2 _net11 gnd
+VProbe:Pr3 _net10 gnd
+VProbe:Pr4 _net9 gnd
+DigiSource:S3 _net6 init="high" times="[1us; 1us]" V="1 V"
+DigiSource:S4 _net5 init="low" times="[1us; 50us]" V="1 V"
+VProbe:Pr7 _net5 gnd
+VProbe:Pr8 _net6 gnd
+OpAmp:OP1 _net13 _net1 _net7 G="1e6" Umax="15 V"
+VProbe:Pr6 _net7 gnd
 .TR:TR1 Type="lin" Start="0" Stop="10.5us" Points="106" IntegrationMethod="Trapezoidal" Order="2" InitialStep="1 ns" MinStep="1e-16" MaxIter="150" reltol="0.001" abstol="1 pA" vntol="1 uV" Temp="26.85" LTEreltol="1e-3" LTEabstol="1e-6" LTEfactor="1" Solver="CroutLU" relaxTSR="no" initialDC="yes" MaxStep="0"
-VProbe:Pr1 _net15 gnd
-VProbe:Pr2 _net14 gnd
-VProbe:Pr3 _net13 gnd
-VProbe:Pr4 _net12 gnd
-VProbe:Pr5 _net17 gnd
-VProbe:Pr6 _net10 gnd
-DigiSource:S3 _net9 init="high" times="[1us; 1us]" V="1 V"
-DigiSource:S4 _net8 init="low" times="[1us; 50us]" V="1 V"
-VProbe:Pr7 _net8 gnd
-VProbe:Pr8 _net9 gnd
-VProbe:Pr12 _net7 gnd
-logic_1:S6 _net5 LEVEL="-1"
+Sub:SUB3 _net9 _net10 _net11 _net12 _net14 _net13 _net2 _net3 _net4 Type="n7bit_R2R_DAC"
+logic_1:S6 _net14 LEVEL="-1"
+VProbe:Pr5 _net13 gnd
