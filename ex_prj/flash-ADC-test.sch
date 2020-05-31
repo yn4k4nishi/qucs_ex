@@ -18,7 +18,6 @@
 <Components>
   <Sub SUB1 1 80 170 80 288 0 0 "3bit-comparator.sch" 0>
   <Sub SUB2 1 420 160 40 288 0 0 "3bit-encoder.sch" 0>
-  <logic_1 S1 1 260 120 -33 -35 0 3 "1" 0>
   <GND * 1 70 430 0 0 0 0>
   <Vdc V1 1 130 300 -26 18 0 0 "VD" 1>
   <.DC DC1 1 80 640 0 46 0 0 "26.85" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "no" 0 "150" 0 "no" 0 "none" 0 "CroutLU" 0>
@@ -27,6 +26,7 @@
   <VProbe Pr2 1 790 280 28 -31 0 0>
   <VProbe Pr3 1 850 360 28 -31 0 0>
   <GND * 1 860 420 0 0 0 0>
+  <logic_1 S1 1 260 120 -33 -35 0 3 "1" 0>
 </Components>
 <Wires>
   <370 180 460 180 "" 0 0 0 "">
