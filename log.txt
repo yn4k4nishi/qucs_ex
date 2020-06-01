@@ -1,7 +1,7 @@
 Output:
 -------
 
-Starting new simulation on 日 31. 5月 2020 at 14:34:08:488
+Starting new simulation on 月 01. 6月 2020 at 17:35:21:136
 
 creating netlist... done.
 project location: 
@@ -26,7 +26,7 @@ creating netlist...
 NOTIFY: TR1: average time-step 8.36653e-09, 245 rejections
 NOTIFY: TR1: average NR-iterations 2.73147, 0 non-convergences
 
-Simulation ended on 日 31. 5月 2020 at 14:34:43:807
+Simulation ended on 月 01. 6月 2020 at 17:35:57:375
 Ready.
 
 

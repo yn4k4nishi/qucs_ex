@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.18>
 <Properties>
-  <View=0,-148,1127,826,0.909091,0,0>
+  <View=0,-148,1127,826,0.620922,0,6>
   <Grid=10,10,0>
   <DataSet=SA-ADC-bench.dat>
   <DataDisplay=SA-ADC-bench.sch>
@@ -48,8 +48,7 @@
   </Rect>
   <Rect 120 708 823 58 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.373529 1 1 1 -1 2 1 315 0 225 "" "V_DAC" "">
 	<"Pr5.Vt" #ff0000 0 3 0 0 0>
-	  <Mkr 7.7e-06 462 46 3 0 0>
-	  <Mkr 1.02e-05 819 46 3 0 0>
+	  <Mkr 1.02e-05 849 -34 3 0 0>
   </Rect>
 </Diagrams>
 <Paintings>

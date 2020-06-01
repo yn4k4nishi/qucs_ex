@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.18>
 <Properties>
-  <View=-40,16,957,1214,0.564476,0,0>
+  <View=-40,61,957,1240,0.466509,0,0>
   <Grid=10,10,1>
   <DataSet=4bit-binconter.dat>
   <DataDisplay=4bit-binconter.dpl>
@@ -51,7 +51,6 @@
   <Sub JK_FF4 1 740 1090 60 74 0 0 "jkff_sub.sch" 0>
   <Port D3 1 890 1040 4 -29 0 2 "3" 0 "out" 0>
   <Port CLK 1 210 210 -23 -29 1 0 "4" 0 "in" 0>
-  <Eqn Eqn1 1 390 110 -23 16 0 0 "logic1=1" 1 "yes" 0>
   <AND Y1 1 500 760 -26 27 0 0 "2" 0 "1 V" 0 "0" 0 "10" 0 "old" 0>
   <AND Y2 1 510 1040 -26 27 0 0 "2" 0 "1 V" 0 "0" 0 "10" 0 "old" 0>
   <logic_1 S1 1 570 160 -35 18 0 0 "1" 0>

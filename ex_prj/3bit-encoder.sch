@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.18>
 <Properties>
-  <View=0,50,983,847,0.826446,0,0>
+  <View=0,-14,983,820,0.826446,0,112>
   <Grid=10,10,1>
   <DataSet=3bit-encoder.dat>
   <DataDisplay=3bit-encoder.dpl>
@@ -108,5 +108,5 @@
 <Diagrams>
 </Diagrams>
 <Paintings>
-  <Text 60 70 12 #000000 0 "Y_0 = X_0 X_1^~ + X_2 X_3^~ + X_4 X_5^~ + X_6\nY_1 = X_1 X_3^~ + X_5\nY_2 = X_3">
+  <Text 180 150 12 #000000 0 "Y_0 = X_0 X_1^~ + X_2 X_3^~ + X_4 X_5^~ + X_6\nY_1 = X_1 X_3^~ + X_5\nY_2 = X_3">
 </Paintings>

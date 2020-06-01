@@ -123,7 +123,7 @@ VProbe:Pr7 _net5 gnd
 VProbe:Pr8 _net6 gnd
 OpAmp:OP1 _net13 _net1 _net7 G="1e6" Umax="15 V"
 VProbe:Pr6 _net7 gnd
-.TR:TR1 Type="lin" Start="0" Stop="10.5us" Points="106" IntegrationMethod="Trapezoidal" Order="2" InitialStep="1 ns" MinStep="1e-16" MaxIter="150" reltol="0.001" abstol="1 pA" vntol="1 uV" Temp="26.85" LTEreltol="1e-3" LTEabstol="1e-6" LTEfactor="1" Solver="CroutLU" relaxTSR="no" initialDC="yes" MaxStep="0"
 Sub:SUB3 _net9 _net10 _net11 _net12 _net14 _net13 _net2 _net3 _net4 Type="n7bit_R2R_DAC"
 logic_1:S6 _net14 LEVEL="-1"
 VProbe:Pr5 _net13 gnd
+.TR:TR1 Type="lin" Start="0" Stop="10.5us" Points="106" IntegrationMethod="Trapezoidal" Order="2" InitialStep="1 ns" MinStep="1e-16" MaxIter="150" reltol="0.001" abstol="1 pA" vntol="1 uV" Temp="26.85" LTEreltol="1e-3" LTEabstol="1e-6" LTEfactor="1" Solver="CroutLU" relaxTSR="no" initialDC="yes" MaxStep="0"
