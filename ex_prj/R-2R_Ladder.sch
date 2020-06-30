@@ -19,12 +19,12 @@
   <Line 220 90 0 20 #000000 0 1>
   <Line 300 90 0 20 #000000 0 1>
   <Line 380 90 0 20 #000000 0 1>
-  <.PortSym 140 110 2 0>
-  <.PortSym 220 110 3 0>
-  <.PortSym 300 110 4 0>
-  <.PortSym 380 110 5 0>
   <Line 80 40 -20 0 #000000 0 1>
   <.PortSym 60 40 1 0>
+  <.PortSym 140 110 5 0>
+  <.PortSym 380 110 2 0>
+  <.PortSym 300 110 3 0>
+  <.PortSym 220 110 4 0>
 </Symbol>
 <Components>
   <Port out1 1 340 350 12 4 0 1 "2" 1 "out" 0>

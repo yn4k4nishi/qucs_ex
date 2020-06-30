@@ -1,7 +1,7 @@
 Output:
 -------
 
-Starting new simulation on 月 01. 6月 2020 at 17:35:21:136
+Starting new simulation on 火 30. 6月 2020 at 13:19:26:523
 
 creating netlist... done.
 project location: 
@@ -11,22 +11,13 @@ factorycreate has registered:
 parsing netlist...
 checking netlist...
 netlist content
-      7 Inv instances
-      2 DigiSource instances
-     66 NAND instances
-      2 OR instances
-     11 VProbe instances
-     31 R instances
-     14 Relais instances
-      4 logic_1 instances
-      4 AND instances
-      9 OpAmp instances
+      1 TLIN instances
+      2 R instances
+      1 Vpulse instances
       1 TR instances
 creating netlist...
-NOTIFY: TR1: average time-step 8.36653e-09, 245 rejections
-NOTIFY: TR1: average NR-iterations 2.73147, 0 non-convergences
 
-Simulation ended on 月 01. 6月 2020 at 17:35:57:375
+Simulation ended on 火 30. 6月 2020 at 13:19:26:590
 Ready.
 
 

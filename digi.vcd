@@ -1,0 +1,68 @@
+$date
+	Fri Jun  5 22:49:07 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100fs
+$end
+$scope module TestBench $end
+$var wire 1 ! netYQ $end
+$var wire 1 " netYV $end
+$var wire 1 # netC4 $end
+$var wire 1 $ netC2 $end
+$var wire 1 % netC1 $end
+$var reg 1 % net_srcC1netC1 $end
+$var reg 1 $ net_srcC2netC2 $end
+$var reg 1 # net_srcC4netC4 $end
+$scope module X1 $end
+$var wire 1 % A $end
+$var wire 1 $ B $end
+$var wire 1 # C $end
+$var wire 1 " Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+1"
+0!
+$end
+#10
+0"
+1!
+1%
+#20
+0%
+1$
+#30
+1"
+0!
+1%
+#40
+0"
+1!
+0%
+0$
+1#
+#50
+1"
+0!
+1%
+#60
+0%
+1$
+#70
+0"
+1!
+1%
+#80
+1"
+0!
+0%
+0$
+0#
