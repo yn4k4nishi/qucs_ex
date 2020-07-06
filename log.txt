@@ -1,6 +1,7 @@
 Output:
 -------
 
+<<<<<<< HEAD
 Starting new simulation on 土 04. 7 2020 at 01:09:02:493
 
 creating netlist... done.
@@ -10,6 +11,25 @@ VCD info: dumpfile digi.vcd opened for output.
 running VCD conversion...
 
 Simulation ended on 土 04. 7 2020 at 01:09:02:728
+=======
+Starting new simulation on 火 30. 6月 2020 at 13:19:26:523
+
+creating netlist... done.
+project location: 
+modules to load: 0
+factorycreate.size() is 0
+factorycreate has registered:
+parsing netlist...
+checking netlist...
+netlist content
+      1 TLIN instances
+      2 R instances
+      1 Vpulse instances
+      1 TR instances
+creating netlist...
+
+Simulation ended on 火 30. 6月 2020 at 13:19:26:590
+>>>>>>> origin/master
 Ready.
 
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Qucs 0.0.18  C:/Users/ynakanishi/.qucs/ensyu_prj/Modulo4counter.sch
 
 `timescale 1ps/100fs
@@ -142,3 +143,12 @@ module TestBench ();
   end
 
 endmodule // TestBench
+=======
+# Qucs 0.0.18  /home/ynakanishi/.qucs/emw_prj/1a.sch
+
+Vpulse:V1 _net0 gnd U1="0 V" U2="3 V" T1="100 ns" T2="200 ns" Tr="1 ns" Tf="1 ns"
+R:R1 _net0 Vin R="75 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R2 gnd Vout R="75 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+.TR:TR1 Type="lin" Start="0" Stop="1000 ns" Points="1001" IntegrationMethod="Trapezoidal" Order="2" InitialStep="1 ns" MinStep="1e-16" MaxIter="150" reltol="0.001" abstol="1 pA" vntol="1 uV" Temp="26.85" LTEreltol="1e-3" LTEabstol="1e-6" LTEfactor="1" Solver="CroutLU" relaxTSR="no" initialDC="yes" MaxStep="0"
+TLIN:Line1 Vin Vout Z="75 Ohm" L="50000 mm" Alpha="0 dB" Temp="26.85"
+>>>>>>> origin/master

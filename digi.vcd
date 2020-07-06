@@ -1,5 +1,9 @@
 $date
+<<<<<<< HEAD
 	Sat Jul 04 01:09:02 2020
+=======
+	Fri Jun  5 22:49:07 2020
+>>>>>>> origin/master
 $end
 $version
 	Icarus Verilog
@@ -8,6 +12,7 @@ $timescale
 	100fs
 $end
 $scope module TestBench $end
+<<<<<<< HEAD
 $var wire 1 ! netCLK $end
 $var wire 1 " netQ0 $end
 $var wire 1 # netQ1 $end
@@ -36,10 +41,27 @@ $var reg 1 4 Q_stateY2 $end
 $var reg 1 5 net_regSETnetSET $end
 $var reg 1 6 net_srcCLKnetCLK $end
 $var reg 1 7 net_srcRSTnetRST $end
+=======
+$var wire 1 ! netYQ $end
+$var wire 1 " netYV $end
+$var wire 1 # netC4 $end
+$var wire 1 $ netC2 $end
+$var wire 1 % netC1 $end
+$var reg 1 % net_srcC1netC1 $end
+$var reg 1 $ net_srcC2netC2 $end
+$var reg 1 # net_srcC4netC4 $end
+$scope module X1 $end
+$var wire 1 % A $end
+$var wire 1 $ B $end
+$var wire 1 # C $end
+$var wire 1 " Y $end
+$upscope $end
+>>>>>>> origin/master
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
+<<<<<<< HEAD
 07
 06
 15
@@ -211,3 +233,45 @@ $end
 #200000
 0!
 06
+=======
+0%
+0$
+0#
+1"
+0!
+$end
+#10
+0"
+1!
+1%
+#20
+0%
+1$
+#30
+1"
+0!
+1%
+#40
+0"
+1!
+0%
+0$
+1#
+#50
+1"
+0!
+1%
+#60
+0%
+1$
+#70
+0"
+1!
+1%
+#80
+1"
+0!
+0%
+0$
+0#
+>>>>>>> origin/master
