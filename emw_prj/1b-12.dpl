@@ -1,0 +1,30 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=0,-67,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=1b-12.dat>
+  <DataDisplay=1b-12.sch>
+  <OpenDisplay=1>
+  <Script=1b-12.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=タイトル>
+  <FrameText1=作者:>
+  <FrameText2=日付:>
+  <FrameText3=リビジョン:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 340 200 240 160 3 #c0c0c0 1 00 1 0 2e-07 1e-06 1 -0.00015 0.001 0.00165 1 -1 1 1 315 0 225 "" "" "">
+	<"Vout.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 3.15e-07 146 -247 3 0 0>
+	<"Vin.Vt" #ff00ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

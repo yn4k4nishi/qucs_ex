@@ -1,0 +1,55 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,-148,1127,826,0.620922,0,6>
+  <Grid=10,10,0>
+  <DataSet=SA-ADC-bench.dat>
+  <DataDisplay=SA-ADC-bench.sch>
+  <OpenDisplay=1>
+  <Script=SA-ADC-bench.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+  <.ID -20 -16 SUB>
+  <Line -20 20 40 0 #000080 2 1>
+  <Line 20 20 0 -40 #000080 2 1>
+  <Line -20 -20 40 0 #000080 2 1>
+  <Line -20 20 0 -40 #000080 2 1>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 120 -62 823 58 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.1 1 1.1 1 -1 2 1 315 0 225 "" "StartPulse" "">
+	<"Pr7.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 120 48 823 58 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.1 1 1.1 1 -1 2 1 315 0 225 "" "CLK" "">
+	<"Pr8.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 120 158 823 58 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "D_3" "">
+	<"Pr1.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 120 268 823 58 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "D_2" "">
+	<"Pr2.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 120 378 823 58 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "D_1" "">
+	<"Pr3.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 120 488 823 58 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.399943 1 1.39992 1 -1 2 1 315 0 225 "" "D_0" "">
+	<"Pr4.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 120 598 823 58 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -17.9993 50 17.9998 1 -1 2 1 315 0 225 "" "V_CMP" "">
+	<"Pr6.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 120 708 823 58 3 #c0c0c0 1 00 1 0 1e-06 1.05e-05 1 -0.373529 1 1 1 -1 2 1 315 0 225 "" "V_DAC" "">
+	<"Pr5.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 1.02e-05 849 -34 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

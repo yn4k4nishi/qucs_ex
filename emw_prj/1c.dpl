@@ -1,0 +1,49 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=0,50,800,775,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=1c.dat>
+  <DataDisplay=1c.sch>
+  <OpenDisplay=1>
+  <Script=1c.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=タイトル>
+  <FrameText1=作者:>
+  <FrameText2=日付:>
+  <FrameText3=リビジョン:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 200 230 240 160 3 #c0c0c0 1 00 1 0 5e-07 2e-06 1 -0.0843512 0.5 1 1 -1 1 1 315 0 225 "" "" "">
+	<"Vout_50.Vt" #0000ff 0 3 0 0 0>
+	<"Vin.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 200 450 240 160 3 #c0c0c0 1 00 1 0 5e-07 2e-06 1 -0.0266742 0.2 0.293416 1 -1 1 1 315 0 225 "" "" "">
+	<"Vout_150.Vt" #0000ff 0 3 0 0 0>
+	<"Vin.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 520 230 240 160 3 #c0c0c0 1 00 1 0 5e-07 2e-06 1 -0.0474342 0.2 0.521776 1 -1 1 1 315 0 225 "" "" "">
+	<"Vout_100.Vt" #0000ff 0 3 0 0 0>
+	<"Vin.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 520 450 240 160 3 #c0c0c0 1 00 1 0 5e-07 2e-06 1 -0.154497 1 1.65041 1 -1 1 1 315 0 225 "" "" "">
+	<"Vout_200.Vt" #0000ff 0 3 0 0 0>
+	<"Vin.Vt" #ff557f 0 3 0 0 0>
+  </Rect>
+  <Rect 200 680 240 160 3 #c0c0c0 1 00 1 0 5e-07 2e-06 1 -0.00843512 0.05 0.1 1 -1 1 1 315 0 225 "" "" "">
+	<"Vout_250.Vt" #0000ff 0 3 0 0 0>
+	<"Vin.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 520 680 240 160 3 #c0c0c0 1 00 1 0 5e-07 2e-06 1 -0.00474342 0.02 0.0521776 1 -1 1 1 315 0 225 "" "" "">
+	<"Vout_300.Vt" #5500ff 0 3 0 0 0>
+	<"Vin.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,51 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,-103,1358,1649,0.620921,0,252>
+  <Grid=10,10,0>
+  <DataSet=measurement1.dat>
+  <DataDisplay=measurement1.sch>
+  <OpenDisplay=1>
+  <Script=measurement1.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 740 449 571 399 3 #c0c0c0 1 10 1 0 10000 100000 1 -102.906 20 107.656 1 -1 0.2 1 315 0 225 "" "" "">
+	<"theta" #0000ff 0 3 0 0 0>
+	  <Mkr 2697.74 336 -286 3 0 0>
+	  <Mkr 1004.62 251 -374 3 0 0>
+	  <Mkr 10023.1 424 -192 3 0 0>
+	  <Mkr 100 62 -392 3 0 0>
+  </Rect>
+  <Rect 130 460 489 394 3 #c0c0c0 1 10 1 0 10000 100000 1 -0.205693 2 10.9278 1 -1 0.2 1 315 0 225 "" "" "">
+	<"aZ" #0000ff 0 3 0 0 0>
+	  <Mkr 2773.32 296 -423 3 0 0>
+	  <Mkr 1004.62 -7 -361 3 0 0>
+	  <Mkr 10023.1 371 -327 3 0 0>
+	  <Mkr 100 142 -92 3 0 0>
+  </Rect>
+  <Rect 130 1124 762 464 3 #c0c0c0 1 10 1 0 10000 100000 1 -0.0980024 0.2 1.09781 1 -1 0.2 1 315 0 225 "" "" "">
+	<"I_ratio" #0000ff 0 3 0 0 0>
+	  <Mkr 100000 820 -485 3 0 0>
+	  <Mkr 3013.01 175 -536 3 0 0>
+	  <Mkr 3999.45 478 -515 3 0 0>
+	  <Mkr 19998.6 618 -307 3 0 0>
+	  <Mkr 2004.47 41 -400 3 0 0>
+	  <Mkr 1004.62 206 -187 3 0 0>
+	  <Mkr 10023.1 568 -409 3 0 0>
+	  <Mkr 299.916 263 -112 3 0 0>
+	  <Mkr 100 80 -79 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

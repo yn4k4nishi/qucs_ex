@@ -1,0 +1,32 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,-60,942,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=Modulo4counter.dat>
+  <DataDisplay=Modulo4counter.sch>
+  <OpenDisplay=1>
+  <Script=Modulo4counter.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Time 60 181 839 161 3 #c0c0c0 1 00 1 0 1 19 1 0 1 1 1 0 1 21 315 0 225 "" "" "">
+	<"RST.X" #000000 0 3 0 0 0>
+	<"CLK.X" #000000 0 3 0 0 0>
+	<"Q2.X" #000000 0 3 0 0 0>
+	<"Q1.X" #000000 0 3 0 0 0>
+	<"Q0.X" #000000 0 3 0 0 0>
+  </Time>
+</Diagrams>
+<Paintings>
+</Paintings>

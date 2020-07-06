@@ -1,0 +1,213 @@
+$date
+	Sat Jul 04 01:09:02 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100fs
+$end
+$scope module TestBench $end
+$var wire 1 ! netCLK $end
+$var wire 1 " netQ0 $end
+$var wire 1 # netQ1 $end
+$var wire 1 $ netQ2 $end
+$var wire 1 % netRST $end
+$var wire 1 & netSET $end
+$var wire 1 ' net_net0 $end
+$var wire 1 ( net_net1 $end
+$var wire 1 ) net_net2 $end
+$var wire 1 * net_net3 $end
+$var wire 1 + net_net4 $end
+$var wire 1 , net_net5 $end
+$var wire 1 - net_net6 $end
+$var wire 1 . net_net7 $end
+$var wire 1 / net_net8 $end
+$var wire 1 0 net_net9 $end
+$var reg 1 ' QB_regY0net_net0 $end
+$var reg 1 + QB_regY1net_net4 $end
+$var reg 1 1 QB_regY2net_net2 $end
+$var reg 1 " Q_regY0netQ0 $end
+$var reg 1 # Q_regY1netQ1 $end
+$var reg 1 $ Q_regY2netQ2 $end
+$var reg 1 2 Q_stateY0 $end
+$var reg 1 3 Q_stateY1 $end
+$var reg 1 4 Q_stateY2 $end
+$var reg 1 5 net_regSETnetSET $end
+$var reg 1 6 net_srcCLKnetCLK $end
+$var reg 1 7 net_srcRSTnetRST $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+07
+06
+15
+04
+03
+02
+11
+10
+0/
+0.
+0-
+0,
+1+
+0*
+1)
+1(
+1'
+1&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1*
+00
+1/
+1,
+0'
+1"
+0)
+01
+1$
+12
+14
+1!
+16
+1%
+17
+#20000
+0!
+06
+#30000
+0/
+1-
+1.
+0,
+0+
+1#
+1'
+0"
+13
+02
+1!
+16
+#40000
+0!
+06
+#50000
+0(
+0.
+1,
+0'
+1"
+12
+1!
+16
+#60000
+0!
+06
+#70000
+0*
+0-
+0,
+1)
+11
+0$
+1'
+0"
+04
+02
+1!
+16
+#80000
+0!
+06
+#90000
+0'
+1"
+1+
+0#
+12
+03
+1!
+16
+#100000
+0!
+06
+#110000
+1(
+10
+1'
+0"
+02
+1!
+16
+#120000
+0!
+06
+#130000
+1*
+00
+1/
+1,
+0'
+1"
+0)
+01
+1$
+12
+14
+1!
+16
+#140000
+0!
+06
+#150000
+0/
+1-
+1.
+0,
+0+
+1#
+1'
+0"
+13
+02
+1!
+16
+#160000
+0!
+06
+#170000
+0(
+0.
+1,
+0'
+1"
+12
+1!
+16
+#180000
+0!
+06
+#190000
+0*
+0-
+0,
+1)
+11
+0$
+1'
+0"
+04
+02
+1!
+16
+#200000
+0!
+06

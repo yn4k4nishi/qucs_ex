@@ -1,0 +1,39 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,0,997,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=D-FF.dat>
+  <DataDisplay=D-FF.sch>
+  <OpenDisplay=1>
+  <Script=D-FF.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=タイトル>
+  <FrameText1=作者:>
+  <FrameText2=日付:>
+  <FrameText3=リビジョン:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Time 70 192 822 152 3 #c0c0c0 1 00 1 0 1 19 1 0 1 1 1 0 1 41 315 0 225 "" "" "">
+	<"SET.X" #000000 0 3 0 0 0>
+	<"RST.X" #000000 0 3 0 0 0>
+	<"CLK.X" #000000 0 3 0 0 0>
+	<"Q.X" #000000 0 3 0 0 0>
+	<"QB.X" #000000 0 3 0 0 0>
+  </Time>
+  <Time 70 366 821 146 3 #c0c0c0 1 00 1 19 1 18 1 0 1 1 1 0 1 41 315 0 225 "" "" "">
+	<"SET.X" #000000 0 3 0 0 0>
+	<"RST.X" #000000 0 3 0 0 0>
+	<"CLK.X" #000000 0 3 0 0 0>
+	<"Q.X" #000000 0 3 0 0 0>
+	<"QB.X" #000000 0 3 0 0 0>
+  </Time>
+</Diagrams>
+<Paintings>
+</Paintings>

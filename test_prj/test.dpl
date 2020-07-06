@@ -1,0 +1,32 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,0,800,422,2.94295,0,0>
+  <Grid=10,10,0>
+  <DataSet=test.dat>
+  <DataDisplay=test.sch>
+  <OpenDisplay=1>
+  <Script=test.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=タイトル>
+  <FrameText1=作者:>
+  <FrameText2=日付:>
+  <FrameText3=リビジョン:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Truth 20 238 454 218 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 9 315 0 225 "" "" "">
+	<"C4.X" #0000ff 0 3 0 0 0>
+	<"C2.X" #0000ff 0 3 0 0 0>
+	<"C1.X" #0000ff 0 3 0 0 0>
+	<"YQ.X" #0000ff 0 3 0 0 0>
+	<"YV.X" #0000ff 0 3 0 0 0>
+  </Truth>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,40 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,10,913,852,0.683014,0,0>
+  <Grid=10,10,0>
+  <DataSet=R2R-DA-test.dat>
+  <DataDisplay=R2R-DA-test.sch>
+  <OpenDisplay=1>
+  <Script=R2R-DA-test.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 100 140 793 110 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Pr1.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 110 438 338 218 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Pr2.It" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 550 438 338 218 3 #c0c0c0 1 00 1 0 1e-05 5e-05 1 -0.000980392 0.005 0.0107843 1 -1 0.5 1 315 0 225 "" "" "">
+	<"Pr3.It" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 110 748 338 218 3 #c0c0c0 1 00 1 0 1e-05 5e-05 1 -0.000980392 0.005 0.0107843 1 -1 0.5 1 315 0 225 "" "" "">
+	<"Pr4.It" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 550 748 338 218 3 #c0c0c0 1 00 1 0 1e-05 5e-05 1 -0.000980392 0.005 0.0107843 1 -1 0.5 1 315 0 225 "" "" "">
+	<"Pr5.It" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,21 @@
+Output:
+-------
+
+Starting new simulation on 土 04. 7 2020 at 01:09:02:493
+
+creating netlist... done.
+running VerilogHDL conversion...
+simulating...
+VCD info: dumpfile digi.vcd opened for output.
+running VCD conversion...
+
+Simulation ended on 土 04. 7 2020 at 01:09:02:728
+Ready.
+
+
+
+
+Errors:
+-------
+
+
