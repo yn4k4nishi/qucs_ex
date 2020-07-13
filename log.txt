@@ -1,18 +1,7 @@
 Output:
 -------
 
-<<<<<<< HEAD
-Starting new simulation on 土 04. 7 2020 at 01:09:02:493
-
-creating netlist... done.
-running VerilogHDL conversion...
-simulating...
-VCD info: dumpfile digi.vcd opened for output.
-running VCD conversion...
-
-Simulation ended on 土 04. 7 2020 at 01:09:02:728
-=======
-Starting new simulation on 火 30. 6月 2020 at 13:19:26:523
+Starting new simulation on 月 13. 7 2020 at 18:20:45:683
 
 creating netlist... done.
 project location: 
@@ -21,15 +10,21 @@ factorycreate.size() is 0
 factorycreate has registered:
 parsing netlist...
 checking netlist...
+checker notice, variable `S' in equation `dBS11' not yet defined
+checker notice, variable `S' in equation `dBS21' not yet defined
+checker notice, variable `S' in equation `phaseS11' not yet defined
+checker notice, variable `S' in equation `phaseS21' not yet defined
 netlist content
-      1 TLIN instances
-      2 R instances
-      1 Vpulse instances
-      1 TR instances
+      2 Pac instances
+      1 SP instances
+      2 COAX instances
 creating netlist...
+checker notice, variable `S' in equation `dBS11' not yet defined
+checker notice, variable `S' in equation `dBS21' not yet defined
+checker notice, variable `S' in equation `phaseS11' not yet defined
+checker notice, variable `S' in equation `phaseS21' not yet defined
 
-Simulation ended on 火 30. 6月 2020 at 13:19:26:590
->>>>>>> origin/master
+Simulation ended on 月 13. 7 2020 at 18:20:45:803
 Ready.
 
 

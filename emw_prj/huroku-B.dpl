@@ -1,0 +1,31 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=-44,-60,1280,852,0.683014,0,0>
+  <Grid=10,10,0>
+  <DataSet=huroku-B.dat>
+  <DataDisplay=huroku-B.sch>
+  <OpenDisplay=1>
+  <Script=huroku-B.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 80 699 1076 649 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"dBS11" #0000ff 0 3 0 0 0>
+	<"dBS21" #ff0000 0 3 0 0 0>
+	<"phaseS11" #ff00ff 0 3 0 0 1>
+	<"phaseS21" #00ff00 0 3 0 0 1>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
