@@ -1,0 +1,38 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,-60,912,800,1,26,0>
+  <Grid=10,10,0>
+  <DataSet=analog-1.dat>
+  <DataDisplay=analog-1.sch>
+  <OpenDisplay=1>
+  <Script=analog-1.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Tab 150 200 691 80 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<"N1.V" #0000ff 0 6 1 0 0>
+	<"N2.V" #0000ff 0 6 1 0 0>
+	<"N3.V" #0000ff 0 6 1 0 0>
+	<"N4.V" #0000ff 0 6 1 0 0>
+	<"N5.V" #0000ff 0 6 1 0 0>
+  </Tab>
+  <Tab 150 330 691 80 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<"N6.V" #0000ff 0 6 1 0 0>
+	<"N8.V" #0000ff 0 6 1 0 0>
+	<"N9.V" #0000ff 0 6 1 0 0>
+	<"N10.V" #0000ff 0 6 1 0 0>
+  </Tab>
+</Diagrams>
+<Paintings>
+</Paintings>

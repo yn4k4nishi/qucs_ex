@@ -1,0 +1,43 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,-60,1415,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=3-3.dat>
+  <DataDisplay=3-3.sch>
+  <OpenDisplay=1>
+  <Script=3-3.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Time 120 250 1236 200 3 #c0c0c0 1 00 1 0 1 26 1 0 1 1 1 0 1 51 315 0 225 "" "" "">
+	<"OE.RST.X" #0000ff 0 3 0 0 0>
+	<"OE.CLK.X" #ff0000 0 3 0 0 0>
+	<"OE.K.X" #ff00ff 0 3 0 0 0>
+	<"OE.CNT.X" #00ff00 0 3 0 0 0>
+	<"OUT2.X" #00ffff 0 3 0 0 0>
+	<"OUT1.X" #00aa00 0 3 0 0 0>
+	<"OUT0.X" #777777 0 3 0 0 0>
+  </Time>
+  <Time 120 500 1236 200 3 #c0c0c0 1 00 1 25 1 26 1 0 1 1 1 0 1 51 315 0 225 "" "" "">
+	<"OE.RST.X" #0000ff 0 3 0 0 0>
+	<"OE.CLK.X" #ff0000 0 3 0 0 0>
+	<"OE.K.X" #ff00ff 0 3 0 0 0>
+	<"OE.CNT.X" #00ff00 0 3 0 0 0>
+	<"OUT2.X" #00ffff 0 3 0 0 0>
+	<"OUT1.X" #00aa00 0 3 0 0 0>
+	<"OUT0.X" #777777 0 3 0 0 0>
+  </Time>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,35 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,-120,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=3-1.dat>
+  <DataDisplay=3-1.sch>
+  <OpenDisplay=1>
+  <Script=3-1.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Time 140 263 275 203 3 #c0c0c0 1 00 1 0 1 4 1 0 1 1 1 0 1 11 315 0 225 "" "" "">
+	<"A.X" #0000ff 0 3 0 0 0>
+	<"B.X" #ff0000 0 3 0 0 0>
+	<"AND.X" #ff00ff 0 3 0 0 0>
+	<"NAND.X" #00ff00 0 3 0 0 0>
+	<"OR.X" #00ffff 0 3 0 0 0>
+	<"NOR.X" #ffff00 0 3 0 0 0>
+	<"XOR.X" #777777 0 3 0 0 0>
+	<"XNOR.X" #000000 0 3 0 0 0>
+  </Time>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,7 +1,7 @@
 Output:
 -------
 
-Starting new simulation on 月 13. 7 2020 at 18:20:45:683
+Starting new simulation on 日 04. 10 2020 at 16:29:33:168
 
 creating netlist... done.
 project location: 
@@ -10,21 +10,49 @@ factorycreate.size() is 0
 factorycreate has registered:
 parsing netlist...
 checking netlist...
-checker notice, variable `S' in equation `dBS11' not yet defined
-checker notice, variable `S' in equation `dBS21' not yet defined
-checker notice, variable `S' in equation `phaseS11' not yet defined
-checker notice, variable `S' in equation `phaseS21' not yet defined
+checker notice, variable `Vin' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
 netlist content
-      2 Pac instances
-      1 SP instances
-      2 COAX instances
+      3 IProbe instances
+      6 BJT instances
+      1 DC instances
+     13 R instances
+      1 SW instances
+      3 Vdc instances
 creating netlist...
-checker notice, variable `S' in equation `dBS11' not yet defined
-checker notice, variable `S' in equation `dBS21' not yet defined
-checker notice, variable `S' in equation `phaseS11' not yet defined
-checker notice, variable `S' in equation `phaseS21' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
 
-Simulation ended on 月 13. 7 2020 at 18:20:45:803
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+
+
+
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+checker notice, variable `Vout.V' in equation `G' not yet defined
+
+checker notice, variable `Vout.V' in equation `G' not yet defined
+
+Simulation ended on 日 04. 10 2020 at 16:29:35:253
 Ready.
 
 

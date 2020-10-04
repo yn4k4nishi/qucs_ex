@@ -1,0 +1,378 @@
+<Qucs Dataset 0.0.18>
+<indep dtime 11>
+  +0.00000000000e+000
+  +1.00000000000e-009
+  +2.00000000000e-009
+  +3.00000000000e-009
+  +4.00000000000e-009
+  +5.00000000000e-009
+  +6.00000000000e-009
+  +7.00000000000e-009
+  +8.00000000000e-009
+  +9.00000000000e-009
+  +1.00000000000e-008
+</indep>
+<dep AND.A.X dtime>
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+</dep>
+<dep AND.B.X dtime>
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+</dep>
+<dep AND.Y.X dtime>
+  0
+  0
+  0
+  1
+  0
+  0
+  0
+  1
+  0
+  0
+  0
+</dep>
+<dep NAND.A.X dtime>
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+</dep>
+<dep NAND.B.X dtime>
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+</dep>
+<dep NAND.Y.X dtime>
+  1
+  1
+  1
+  0
+  1
+  1
+  1
+  0
+  1
+  1
+  1
+</dep>
+<dep NOR.A.X dtime>
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+</dep>
+<dep NOR.B.X dtime>
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+</dep>
+<dep NOR.Y.X dtime>
+  1
+  0
+  0
+  0
+  1
+  0
+  0
+  0
+  1
+  0
+  0
+</dep>
+<dep OR.A.X dtime>
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+</dep>
+<dep OR.B.X dtime>
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+</dep>
+<dep OR.Y.X dtime>
+  0
+  1
+  1
+  1
+  0
+  1
+  1
+  1
+  0
+  1
+  1
+</dep>
+<dep XNOR.A.X dtime>
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+</dep>
+<dep XNOR.B.X dtime>
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+</dep>
+<dep XNOR.Y.X dtime>
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+</dep>
+<dep XOR.A.X dtime>
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+</dep>
+<dep XOR.B.X dtime>
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+</dep>
+<dep XOR.Y.X dtime>
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+</dep>
+<dep XOR.X dtime>
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+</dep>
+<dep XNOR.X dtime>
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+</dep>
+<dep OR.X dtime>
+  0
+  1
+  1
+  1
+  0
+  1
+  1
+  1
+  0
+  1
+  1
+</dep>
+<dep NOR.X dtime>
+  1
+  0
+  0
+  0
+  1
+  0
+  0
+  0
+  1
+  0
+  0
+</dep>
+<dep NAND.X dtime>
+  1
+  1
+  1
+  0
+  1
+  1
+  1
+  0
+  1
+  1
+  1
+</dep>
+<dep B.X dtime>
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+</dep>
+<dep AND.X dtime>
+  0
+  0
+  0
+  1
+  0
+  0
+  0
+  1
+  0
+  0
+  0
+</dep>
+<dep A.X dtime>
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+</dep>
+<dep _srcS1netA.X dtime>
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+</dep>
+<dep _srcS2netB.X dtime>
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+</dep>
