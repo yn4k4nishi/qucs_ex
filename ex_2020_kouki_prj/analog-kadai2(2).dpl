@@ -1,0 +1,36 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=-43,-230,1378,1075,0.826446,17,0>
+  <Grid=10,10,0>
+  <DataSet=analog-kadai2(2).dat>
+  <DataDisplay=analog-kadai2(2).sch>
+  <OpenDisplay=1>
+  <Script=analog-kadai2(2).m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Tab 44 358 952 448 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 101 315 0 225 "" "" "">
+	<"T1_V_BE" #0000ff 0 6 1 0 0>
+	<"T1_V_CE" #0000ff 0 6 1 0 0>
+	<"T2_V_BE" #0000ff 0 6 0 0 0>
+	<"T2_V_CE" #0000ff 0 6 0 0 0>
+	<"T3_V_BE" #0000ff 0 6 0 0 0>
+	<"T3_V_CE" #0000ff 0 6 0 0 0>
+	<"Pr1.I" #0000ff 0 6 0 0 0>
+	<"Pr2.I" #0000ff 0 6 0 0 0>
+	<"Pr3.I" #0000ff 0 6 0 0 0>
+  </Tab>
+</Diagrams>
+<Paintings>
+</Paintings>

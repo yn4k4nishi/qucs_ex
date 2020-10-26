@@ -1,0 +1,43 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,0,1568,1186,1,0,300>
+  <Grid=10,10,0>
+  <DataSet=analog-kadai3.dat>
+  <DataDisplay=analog-kadai3.sch>
+  <OpenDisplay=1>
+  <Script=analog-kadai3.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Tab 260 280 300 200 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 101 315 0 225 "" "" "">
+	<"Pr1.I" #0000ff 0 6 1 0 0>
+	<"Pr2.I" #0000ff 0 6 0 0 0>
+  </Tab>
+  <Tab 660 432 868 372 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 101 315 0 225 "" "" "">
+	<"N1.V" #0000ff 0 6 1 0 0>
+	<"N2.V" #0000ff 0 6 1 0 0>
+	<"N3.V" #0000ff 0 6 1 0 0>
+	<"N4.V" #0000ff 0 6 1 0 0>
+	<"N5.V" #0000ff 0 6 1 0 0>
+	<"N6.V" #0000ff 0 6 1 0 0>
+	<"N8.V" #0000ff 0 6 1 0 0>
+	<"N9.V" #0000ff 0 6 1 0 0>
+	<"N10.V" #0000ff 0 6 1 0 0>
+  </Tab>
+  <Rect 330 948 723 418 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"I_total" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
