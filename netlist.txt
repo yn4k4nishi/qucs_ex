@@ -1,30 +1,21 @@
-# Qucs 0.0.18  C:/Users/ynakanishi/.qucs/ex_2020_kouki_prj/oamp.sch
+# Qucs 0.0.18  C:/Users/ynakanishi/Downloads/20201117_prj/20201117_prj/02.sch
 
-IProbe:Pr1 _net0 _net1
-Vdc:V1 V_IN N3 U="param"
-IProbe:Pr2 _net2 _net3
-IProbe:Pr3 _net4 _net5
-R:R7 gnd V_IN R="9.88 kOhm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R1 _net6 gnd R="26.7 kOhm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R2 _net7 _net6 R="1.787 kOhm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R3 _net7 _net8 R="266 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R5 _net4 _net9 R="0.988 kOhm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R4 _net0 _net9 R="0.988 kOhm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R6 gnd N3 R="10 kOhm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-BJT:T1 N3 _net1 _net2 _net1 Type="npn" Is="202 fA" Nf="1" Nr="1" Ikf="0" Ikr="0" Vaf="0" Var="0" Ise="0" Ne="1.5" Isc="0" Nc="2" Bf="226" Br="1" Rbm="0" Irb="0" Rc="0" Re="0" Rb="3.23" Cje="0" Vje="0.75" Mje="0.33" Cjc="0" Vjc="0.75" Mjc="0.33" Xcjc="1.0" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="0.0" Xtf="0.0" Vtf="0.0" Itf="0.0" Tr="0.0" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
-BJT:T2 V_IN _net5 _net2 _net5 Type="npn" Is="212 fA" Nf="1" Nr="1" Ikf="0" Ikr="0" Vaf="0" Var="0" Ise="0" Ne="1.5" Isc="0" Nc="2" Bf="225" Br="1" Rbm="0" Irb="0" Rc="0" Re="0" Rb="3.35" Cje="0" Vje="0.75" Mje="0.33" Cjc="0" Vjc="0.75" Mjc="0.33" Xcjc="1.0" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="0.0" Xtf="0.0" Vtf="0.0" Itf="0.0" Tr="0.0" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
-BJT:T3 _net6 _net3 _net8 _net3 Type="npn" Is="206 fA " Nf="1" Nr="1" Ikf="0" Ikr="0" Vaf="0" Var="0" Ise="0" Ne="1.5" Isc="0" Nc="2" Bf="228" Br="1" Rbm="0" Irb="0" Rc="0" Re="0" Rb="3.36" Cje="0" Vje="0.75" Mje="0.33" Cjc="0" Vjc="0.75" Mjc="0.33" Xcjc="1.0" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="0.0" Xtf="0.0" Vtf="0.0" Itf="0.0" Tr="0.0" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
-Vdc:V2 _net9 gnd U="15 V"
-Vdc:V3 gnd _net7 U="15 V"
-R:R10 _net10 _net9 R="46.8 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R11 _net11 _net9 R="99.6 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-BJT:T6 _net12 _net11 V_OUT _net11 Type="npn" Is="259 fA" Nf="1" Nr="1" Ikf="0" Ikr="0" Vaf="0" Var="0" Ise="0" Ne="1.5" Isc="0" Nc="2" Bf="229" Br="1" Rbm="0" Irb="0" Rc="0" Re="0" Rb="3.35" Cje="0" Vje="0.75" Mje="0.33" Cjc="0" Vjc="0.75" Mjc="0.33" Xcjc="1.0" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="0.0" Xtf="0.0" Vtf="0.0" Itf="0.0" Tr="0.0" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
-R:R8 _net13 _net12 R="217 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R12 _net7 _net14 R="99.4 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-R:R9 _net7 _net13 R="9.90 kOhm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-BJT:T5 _net5 _net12 _net10 _net12 Type="pnp" Is="7.25 fA" Nf="1" Nr="1" Ikf="0" Ikr="0" Vaf="0" Var="0" Ise="0" Ne="1.5" Isc="0" Nc="2" Bf="336" Br="1" Rbm="0" Irb="0" Rc="0" Re="0" Rb="3.25" Cje="0" Vje="0.75" Mje="0.33" Cjc="0" Vjc="0.75" Mjc="0.33" Xcjc="1.0" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="0.0" Xtf="0.0" Vtf="0.0" Itf="0.0" Tr="0.0" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
-BJT:T7 _net13 _net14 V_OUT _net14 Type="pnp" Is="11.2 fA" Nf="1" Nr="1" Ikf="0" Ikr="0" Vaf="0" Var="0" Ise="0" Ne="1.5" Isc="0" Nc="2" Bf="331" Br="1" Rbm="0" Irb="0" Rc="0" Re="0" Rb="3.42" Cje="0" Vje="0.75" Mje="0.33" Cjc="0" Vjc="0.75" Mjc="0.33" Xcjc="1.0" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="0.0" Xtf="0.0" Vtf="0.0" Itf="0.0" Tr="0.0" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
+IProbe:Pr1 _net0 N2
+IProbe:Pr2 _net1 N5
+Vdc:V1 N1 gnd U="15 V"
+Vdc:V2 gnd N10 U="15 V"
+Vdc:V3 N6 N3 U="0"
 .DC:DC1 Temp="26.85" reltol="0.001" abstol="1 pA" vntol="1 uV" saveOPs="no" MaxIter="150" saveAll="no" convHelper="none" Solver="CroutLU"
-Eqn:Eqn1 G="dB(diff(V_OUT.V,V_IN.V))" Export="yes"
-R:R13 gnd V_OUT R="14.95 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
-.SW:SW1 Sim="DC1" Type="lin" Param="param" Start="-0.2 V" Stop="0.2 V" Points="1001"
+IProbe:Pr3 N4 _net2
+R:R1 N8 gnd R="26.7k Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R2 N10 N8 R="1.78k Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R3 N10 N9 R="330 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R4 _net0 N1 R="994 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R5 _net1 N1 R="989 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R6 gnd N3 R="9.89k Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R7 gnd N6 R="9.88k Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+BJT:Q1 N3 N2 N4 N2 Type="npn" Is="128 fA" Nf="1" Nr="1" Ikf="0" Ikr="0" Vaf="0" Var="0" Ise="0" Ne="1.5" Isc="0" Nc="2" Bf="227" Br="1" Rbm="0" Irb="0" Rc="0" Re="0" Rb="3.25" Cje="0" Vje="0.75" Mje="0.33" Cjc="0" Vjc="0.75" Mjc="0.33" Xcjc="1.0" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="0.0" Xtf="0.0" Vtf="0.0" Itf="0.0" Tr="0.0" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
+BJT:Q2 N6 N5 N4 N5 Type="npn" Is="131 fA" Nf="1" Nr="1" Ikf="0" Ikr="0" Vaf="0" Var="0" Ise="0" Ne="1.5" Isc="0" Nc="2" Bf="227" Br="1" Rbm="0" Irb="0" Rc="0" Re="0" Rb="3.24" Cje="0" Vje="0.75" Mje="0.33" Cjc="0" Vjc="0.75" Mjc="0.33" Xcjc="1.0" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="0.0" Xtf="0.0" Vtf="0.0" Itf="0.0" Tr="0.0" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
+BJT:Q3 N8 _net2 N9 _net2 Type="npn" Is="126 fA" Nf="1" Nr="1" Ikf="0" Ikr="0" Vaf="0" Var="0" Ise="0" Ne="1.5" Isc="0" Nc="2" Bf="225" Br="1" Rbm="0" Irb="0" Rc="0" Re="0" Rb="3.27" Cje="0" Vje="0.75" Mje="0.33" Cjc="0" Vjc="0.75" Mjc="0.33" Xcjc="1.0" Cjs="0" Vjs="0.75" Mjs="0" Fc="0.5" Tf="0.0" Xtf="0.0" Vtf="0.0" Itf="0.0" Tr="0.0" Temp="26.85" Kf="0.0" Af="1.0" Ffe="1.0" Kb="0.0" Ab="1.0" Fb="1.0" Ptf="0.0" Xtb="0.0" Xti="3.0" Eg="1.11" Tnom="26.85" Area="1.0"
+Eqn:Eqn1 VBE="N3.V-N4.V" Export="yes"
+Eqn:Eqn4 VCE="N2.V-N4.V" Export="yes"
